@@ -1,0 +1,311 @@
+body{
+    padding:0;
+    margin:0;
+    color:white;
+    background-color:#2f2f2f;
+}
+
+    /* navbar */
+
+header{ 
+    background-color: #4b4b4b;
+    padding: 10px;
+    position: sticky;
+    top:0;
+} 
+
+#atas{
+    display: inline-block;
+
+}
+
+#aktif{
+    color:  rgb(227, 177, 13);
+}
+
+.tombol{
+    text-decoration: none;
+    display: inline;
+    padding: 5px;
+    font-size: 1.5em;
+    margin-left:25px;
+    text-align: center;
+    color:white;
+    cursor: pointer;
+}
+
+#active ,.tombol:hover{
+    text-decoration: underline;
+    cursor:pointer; 
+    color:  rgb(227, 177, 13);
+}
+    /* Footer */
+
+footer{
+    padding:4px;
+    background-color: #4b4b4b;
+    bottom: 0;
+    position: relative;
+}
+
+.k{
+    margin-left:50px;
+}
+
+.linkgambar{
+    display: inline-block;
+}
+
+    /* utama */
+
+.tentang{   
+    margin-top:10%;
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom: 9%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.tentang img {
+    border-radius: 400px;
+    border: 3px solid black;
+}
+
+.saya{
+    margin-top:auto;
+    line-height: 10px;
+}
+
+.saya input{
+    border:4px solid #202020;
+    border-radius: 10px;
+    padding:20px;
+    margin-top: 25px;
+    background-color: rgb(227, 177, 13);
+}
+
+.saya input:hover{
+    border:4px solid #202020;
+    border-radius: 10px;
+    padding:20px;
+    margin-top: 25px;
+    background-color: rgb(255, 200, 0);
+}
+
+.saya input:active{
+    border:4px solid #202020;
+    border-radius: 10px;
+    padding:20px;
+    margin-top: 25px;
+    background-color: rgb(255, 200, 0);
+}
+
+
+/* Pengenalan diri */
+
+.perkenalandiri{
+    margin-top:7%;
+    margin-left:20%;
+    margin-right:20%;
+    margin-bottom: 10%;
+    text-align: center;
+    word-wrap: break-word;
+    font-size: large;
+}
+
+.ps{
+    margin-left:20%;
+    margin-right:20%;
+    margin-top: 0%;
+    font-weight: bold;
+}
+
+.perkenalandiri hr{
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 1px solid rgb(227, 177, 13);
+}
+
+.keahlian{
+    background-color: rgb(40, 40, 40);
+    width: auto;
+    padding: 5px;
+}
+
+.keahlian ol p{
+    text-indent: 25px;
+}
+
+.skill{
+    list-style-type: none;
+}
+    /* riwayat sekolah */
+.sekolah{
+    margin-bottom: 5%;
+}
+
+.rs{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.riwayat{
+    margin-right: 5%;
+    text-align: center;
+    background-color: rgb(81, 81, 81);
+    border: solid rgb(34, 34, 34);
+    border-radius: 5px;
+    width: 15%;
+}
+
+.riwayat a,img{
+    color: rgb(0, 121, 185);
+}
+
+.foto{
+    margin-top: 3%;
+    width: 150px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+    /* Pencapaian */
+
+.pencapaian{
+    background-color:rgb(40, 40, 40);
+    margin-bottom:0;
+    justify-content: center;
+    padding:5%;
+    text-align: center;
+}
+
+.gambar_sertifikat{
+    margin-right: 20px;
+    width: 450px;
+    height: 300px;
+}
+
+.gambar_sertifikat:hover{
+    cursor:zoom-out;
+}
+
+/* CV */
+
+.cv{
+    justify-content: center;
+}
+
+.fotocv{
+    margin-left: 35%;
+    margin-top:5%;
+    margin-bottom: 5%;
+    border: 1px solid black;
+    border-radius:10px;
+}
+
+/* artikel */
+
+    /* untuk header */
+.bigetron{
+    background-color: rgb(40, 40, 40);
+    padding:100px;
+    text-align: center;
+}
+
+    /*untuk yang dipinggir */
+
+.card{
+    float:right;
+    padding:50px;
+    background-color: rgb(32, 32, 32);
+    width: 20%;
+    margin-left: 20px;
+}
+
+    /*isi dari artikel*/
+.pembahasan{
+    margin-top: 50px;
+    font-size: 1.2em;
+    max-width: 90%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.pembahasan p{
+    text-indent: 25px;
+}
+
+.sumber{
+    line-height: 50px;
+}
+
+/* Kontak */
+
+.kontak{
+    background-color: #4b4b4b;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 15%;
+    margin-right: 20%;
+    margin-left: 10%;
+}
+
+.informasi-kontak{
+    display: flex;
+
+}
+
+.telp{
+    display:flex;
+    margin-right: 20px;
+    /* background-color: aqua; */
+}
+
+.email{
+    display: flex;
+    /* background-color: blue; */
+}
+
+.form{
+    padding: 10px;
+    margin-left: auto;
+}
+
+/* Tefa */
+
+.card-tefa{
+    margin:10%;
+    display: inline-block;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.block{
+    background-color: #202020;
+    padding:20px;
+    border: 2px solid black;
+    justify-content: center;
+    width: 16em;
+    height: auto;
+}
+
+.block img{
+    width: 100%;
+}
+
+.tefa{
+    text-decoration: none;
+    color: white;
+}
+
+.block h2,h4{
+    text-align: center;
+}
+
+.sumber-belajar{
+    text-decoration: none;
+    color:rgb(0, 195, 255);
+}
+
